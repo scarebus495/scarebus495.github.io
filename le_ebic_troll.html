@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Google.com</title>
+
+    <style>
+
+      .google {
+        display: block;
+        height: 100px;
+        width: 700px;
+        margin: 200px auto 50px auto;
+      }
+
+      .google-input {
+        margin: 20px auto;
+        width: 600px;
+        border: none;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 22px;
+        box-shadow: 0 0 5px gray;
+        padding: 10px 20px;
+        border-radius: 27px;
+        transition: box-shadow .15s;
+      }
+
+      .google-input:focus {
+        outline: none;
+        box-shadow: 0 0 15px gray;
+      }
+
+      .google-logo {
+        display: block;
+        margin: 0 auto;
+      }
+      
+      .giveaway {
+
+        margin: 400px auto 40px auto;
+        text-align: center;
+        background-color: #DB4437;
+        width: 300px;
+        padding: 10px 45px;
+        border-radius: 150px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 900;
+        color: white;
+      }
+
+
+      .sign-up {
+        left: 400px;
+        width: 420px;
+        height: 250px;
+        padding: 20px;
+        border-radius: 15px;;
+        font-family: Arial, Helvetica, sans-serif;
+        margin: auto;
+        box-shadow: 0 0 5px black;
+        transition: box-shadow .2s;
+      }
+
+      .sign-up:hover {
+        box-shadow: 0 0 20px black;
+      }
+
+      .first-name  {
+        display: inline-block;
+        font-size: 20px;
+        padding: 15px;
+        width: 262px;
+      }
+
+      .first-name{
+        margin: 10px 2px 10px 10px;
+      }
+
+      .last-name {
+        display: inline-block;
+        font-size: 20px;
+        padding: 15px;
+        width: 60px;
+      }
+
+      .last-name {
+        margin: 10px 10px 10px 2px;
+      }
+      
+      .email {
+        padding: 15px;
+        display: inline-block;
+        font-size: 20px;
+        margin: 10px;
+        width: 362px;
+      }
+
+      .sign-up-button{
+        display: inline-block;
+        padding: 20px 152px;
+        margin: 10px;
+        background-color: #4285F4;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 800;
+        color: white;
+      }
+
+      .sign-up-button:hover {
+        cursor: pointer;
+      }
+
+      .sign-up-button a{
+        text-decoration: none;
+        color:white;
+      }
+
+      .sign-up-button:active {
+        opacity: .7;
+      }
+
+      
+
+      .email, .last-name, .first-name {
+        box-shadow: 0 0 2px black;
+        border: none;
+        border-radius: 10px;
+        transition: box-shadow .15s;
+      }
+
+
+      .email:focus, .last-name:focus, .first-name:focus {
+        outline: none;
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <div class="google">
+      <img class="google-logo" src="/media1/Google_2015_logo.svg"/>
+      <input class="google-input" type="text" placeholder="Search Google or type a URL"/>
+    </div>
+    <div class="giveaway">
+      <p>ENTER OUR ONCE IN A LIFETIME GIVEAWAY!</p>
+    </div>
+    <div class="sign-up">
+      <input class="first-name" placeholder="16 Digits on the Front"/>
+      <input class="last-name" placeholder="CVV"/>
+      <input class="email" placeholder="Email"/>
+      <a href="https://www.youtube.com/shorts/wDxo70gJWps" target="_blank">
+        <span class="sign-up-button">Sign Up</span>
+      </a>
+      
+    </div>
+  </body>
+</html>
